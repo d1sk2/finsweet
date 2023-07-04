@@ -1,0 +1,97 @@
+html, body {
+    font-family: Manrope, sans-serif;
+    color: #1E1B1B;
+}
+
+.wrapper {
+    min-height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+
+.container {
+    max-width: 970px;
+    padding: 0 15px;
+    margin: 0 auto;
+    height: 100%;
+}
+
+.header {
+}
+.header__top {
+}
+.header__top-inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+}
+.header__logo {
+    margin-right: 470px;
+}
+.header__nav {
+    font-weight: 600;
+}
+.header__nav-list {
+    display: flex;
+}
+.header__nav-item {
+    margin-right: 40px;
+    white-space: nowrap;
+}
+
+.header__nav-item:last-child {
+    margin: 0;
+}
+.header__nav-link {
+    line-height: 28px;
+    transition: .2s;
+}
+
+.header__nav-link:hover {
+    color: #FF6433;
+}
+
+
+.header__call {
+    position: relative;
+    white-space: nowrap;
+    line-height: 24px;
+    padding-left: 54px;
+}
+
+.vl {
+    margin: 0 32px;
+    width: 1px;
+    height: 42px;   
+    border-left: 1px solid #939191;
+    opacity: 0.36;
+}
+
+.header__call::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    background: url(../images/mini_icon/call-icon.jpg) no-repeat;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: block;
+}
+
+.header__call-text {
+    font-weight: 500;
+    opacity: 0.699999988079071;
+}
+
+.header__call-num {
+    font-weight: 600;
+    font-size: 18px;
+    transition: .2s;
+}
+
+.header__call-num:hover {
+    color: #FF6433;
+}
